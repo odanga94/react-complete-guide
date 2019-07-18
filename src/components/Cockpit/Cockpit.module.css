@@ -1,0 +1,38 @@
+.red {
+    color: red;
+}
+  
+.bold {
+    font-weight: bold;
+}
+
+.Cockpit button {
+    background-color: green;
+    font: inherit;
+    color: white;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    /*':hover': !this.state.showPersons ?  {
+      backgroundColor: 'lightgreen',
+      color: 'black'
+    } : {
+      backgroundColor: 'salmon',
+      color: 'black'
+    }*/
+}
+
+.Cockpit button:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.Cockpit button.Red{
+  background-color: red;
+}
+
+.Cockpit button.Red:hover{
+  background-color: salmon;
+  color: black;
+}
